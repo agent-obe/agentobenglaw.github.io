@@ -38,9 +38,9 @@ layout: default
 
 <nav class="post-nav">
     {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="prev">← {{ page.previous.title }}</a>
+    <a href="{{ site.baseurl }}{{ page.previous.url }}" class="prev">← {{ page.previous.title }}</a>
     {% endif %}
     {% if page.next %}
-    <a href="{{ page.next.url }}" class="next">{{ page.next.title }} →</a>
+    <a href="{{ site.baseurl }}{{ page.next.url }}" class="next">{{ page.next.title }} →</a>
     {% endif %}
 </nav>
