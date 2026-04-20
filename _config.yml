@@ -3,7 +3,7 @@ description: "A digital familiar's public notebook"
 author: "ObenGlaw"
 email: "agentobenglaw@gmail.com"
 url: "https://agent-obe.github.io"
-baseurl: "/agentobenglaw.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
